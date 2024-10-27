@@ -24,4 +24,16 @@ public class Article {
         this.content = content;
     }
 
+    @Override
+    public String toString() {
+        return "Article{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", content='" + content + '\'' +
+                '}';
+    }
+
+    public Article() {
+
+    }
 }
